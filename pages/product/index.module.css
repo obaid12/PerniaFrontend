@@ -1,0 +1,25 @@
+.minus_btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 12px 0px 0px 12px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #d7dbdb;
+    margin-right: 10px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.add_btn{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid #d7dbdb;
+    border-radius: 0px 12px 12px 0px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.counter{
+    /* display: inline; */
+    font-size: 25px;
+}

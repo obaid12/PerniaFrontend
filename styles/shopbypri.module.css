@@ -1,0 +1,48 @@
+.borderstyle{
+    border-top:20px solid #F7F7F7;
+  }
+
+
+  .outline{
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .spacing{
+    margin-left: 30px;
+    font-size: 1.8em;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+  }
+
+  .alignment{
+      width:1290px;
+      width: 100% !important;
+      margin-left: auto;
+      margin-right: auto;
+  }
+.imgSize{
+    height:112px;
+    width:150px;
+}
+.shopPrice{
+    margin-left: 15px;
+    height:150px;
+    width:300px;
+}
+
+@media screen and (max-width: 760px) {
+  .alignment{
+    /* width:1290px; */
+    width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.shopPrice{
+  margin-left: auto;
+  margin-right: auto;
+  width:100% !important;
+  height: auto;
+}
+}

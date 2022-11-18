@@ -1,0 +1,57 @@
+.borderstyle{
+    border-top:20px solid #F7F7F7;
+  }
+
+
+  .outline{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width:100% !important;
+    margin-top:20px;
+    margin-bottom:20px;
+  }
+
+  .spacing{
+    margin-left: 30px;
+    font-size: 1.8em;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+  }
+
+  .alignment{
+    display:flex;
+    flex-direction:row;
+    margin-left: auto;
+    margin-right: auto;
+    /* flex-wrap: wrap; */
+   
+    width:1350px;
+  }
+.imgSize{
+    height:112px;
+    width:150px;
+}
+.shopPrice{
+    margin-left: 15px;
+    height:150px;
+    width:300px;
+}
+.alignment2{
+  display: none !important;
+}
+@media screen and (max-width: 760px) {
+
+  .alignment{
+    display:flex;
+    flex-direction:row;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    width:100% !important;
+   /* width:1350px !important; */
+  }
+/* .alignment{
+  display: none !important;
+} */
+}

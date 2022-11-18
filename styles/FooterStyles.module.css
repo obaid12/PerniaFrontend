@@ -1,0 +1,64 @@
+
+.fbox{
+padding: 80px 60px;
+background: black;
+position: absolute;
+bottom: 0;
+width: 100%;
+}
+
+@media (max-width: 1000px) {
+	.fbox{
+	padding: 70px 30px;
+}
+}
+
+
+.fcontainer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 1000px;
+	margin: 0 auto;
+	/* background: red; */
+}
+
+.fcol{
+display: flex;
+flex-direction: column;
+text-align: left;
+margin-left: 60px;
+}
+
+.frow {
+display: grid;
+grid-template-columns: repeat(auto-fill,
+						minmax(185px, 1fr));
+grid-gap: 20px;
+}
+@media (max-width: 1000px) {
+	.frow {
+	grid-template-columns: repeat(auto-fill,
+						minmax(200px, 1fr));
+}
+}
+
+
+.foterlink{ 
+color: #fff;
+margin-bottom: 20px;
+font-size: 18px;
+text-decoration: none;
+}
+.foterlink:hover {
+	color: green;
+	transition: 200ms ease-in;
+}
+
+
+.fhead{
+font-size: 24px;
+color: #fff;
+margin-bottom: 40px;
+font-weight: bold;
+}
